@@ -1,0 +1,18 @@
+name: Deploy Website for Preview
+
+on: [push, pull_request]
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    name: Deploying to Surge.sh
+    steps: 
+      - uses: nelonoel/branch-name@v1
+      - run: echo ${BRANCH_NAME}
+      - uses: actions/checkout@v1
+      - name: Install Surge.sh & Deploy via Surge
+        uses: actions/setup-node@v1
+        with:
+          node-version: 8
+      - run: npm install -g surge
+      - run: surge ./ ${ BRANCH_NAME } --token ${{ secrets.SURGE_TOKEN }}
