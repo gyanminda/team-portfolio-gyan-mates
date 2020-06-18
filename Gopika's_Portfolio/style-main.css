@@ -7,14 +7,13 @@ body{
     overflow-x: hidden;
     font-family: 'Dancing Script', cursive;
     text-align: center;
-    background: url('images/background.jpg' ) ;
+    background: url('./images/background.jpg' ) ;
     background-size: cover;
     background-attachment: fixed;
 }
 
 header{
-    background-image: url("images/background.jpg");
-    background: #000;
+    background: #000 url(./images/cover.png) center;
     background-size: cover;
     height: 83vh;
     position: relative;
@@ -175,5 +174,3 @@ h2{
     margin-right: 150px;
     
 }
-
-
