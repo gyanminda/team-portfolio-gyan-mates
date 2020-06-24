@@ -1,0 +1,27 @@
+body {
+     background-color: floralwhite;
+  }
+ .GyanMatrix-Company-Name {
+    position: relative;
+    left: 70px;
+    top: 10px;
+ }
+.GyanMatrix-Logo {
+    position: relative;
+    height: 60px;
+    left: 70px;
+    top: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    height:300px;
+}
+img:hover {
+    cursor: pointer;
+}
+footer {
+    color : brown;
+}
