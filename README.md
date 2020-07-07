@@ -1,4 +1,2 @@
-# team-portfolio-gyan-mates
-
-Hello this is Saad Ahamed 
+# team-portfolio-gyan-mates 
 
