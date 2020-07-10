@@ -1,0 +1,12 @@
+{
+    "html.autoClosingTags": true,
+    "[html]": {
+        "editor.foldingStrategy": "indentation",
+    },
+    "html.format.enable": true,
+    "editor.formatOnSave": true,
+    "css.validate": true,
+    "[css]": {
+        "editor.foldingStrategy": "indentation"
+    },
+}
