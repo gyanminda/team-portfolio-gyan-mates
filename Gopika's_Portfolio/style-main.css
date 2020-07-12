@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background: url('./images/background.jpg' ) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background: #000 url(./images/cover.png) center;
+    background-size: cover;
+    height: 83vh;
+    position: relative;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    
+}
+.icon{
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+.icon ul{
+    list-style: none;
+}
+.icon ul li{
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    margin: 0 7px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-color: black;
+    transition: all 0.5s ease;
+}
+.icon ul li .fab{
+    margin-top: 20px;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.icon ul li:hover:nth-child(1){
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d ;
+    transition: all 0.5s ease;
+}
+.icon ul li:hover .fab-instagram{
+    color:#bc2a8d ;
+    text-shadow: 0 0 15px #bc2a8d ;
+    transition: all 0.5s ease;
+}
+.icon ul li:hover:nth-child(2){
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+.icon ul li:hover .fab-twitter{
+    color:#00aced;
+    text-shadow: 0 0 15px#00aced;
+    transition: all 0.5s ease;
+}
+.icon ul li:hover:nth-child(3){
+    border: 5px solid  #dd4b39;
+    box-shadow: 0 0 15px  #dd4b39;
+    transition: all 0.5s ease;
+}
+.icon ul li:hover .fab-linkedin{
+    color: #dd4b39;
+    text-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+}
+
+
+.family img{
+    width: 200px;
+    margin: 40px;
+  
+}
+.family{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.friends img{
+    width: 200px;
+    margin: 40px;
+    height: 700%;
+    
+}
+.friends{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dogs img{
+    width: 200px;
+    margin: 40px;
+    
+}
+.dogs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.food1 img{
+    width: 200px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+.food1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food2 img{
+    width: 200px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+.food2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dance img{
+    width: 200px;
+    margin: 40px;
+    
+}
+.dance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+     
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.para p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.para1 p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.para2 p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.para3 p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.para4 p{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.pa p{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}

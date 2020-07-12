@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    height:300px;
+    border-radius: 50%;;
+}
+img:hover {
+    cursor: pointer;
+}
+footer {
+    color : brown;
+}

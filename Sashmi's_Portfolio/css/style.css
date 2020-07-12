@@ -1,0 +1,49 @@
+body{
+	background-image:url("../image/vv.jpg");
+	background-position:center;
+	background-size:cover;
+	font-family:Arial;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	padding:0 20px;
+	
+	
+}
+.table ul{
+list-style:none;
+font-size:20px;
+}
+.table ul li{
+float:right;
+margin-right:10px;
+}
+.table ul li a{
+display:block;
+text-decoration:none;
+color:black;
+}
+.table ul{
+list-style:none;
+font-size:20px;
+}
+.table ul li{
+float:right;
+margin-right:10px;
+}
+.table ul li a{
+display:block;
+text-decoration:none;
+color:black;
+}
+h2{
+	
+	font-family:Roboto;
+	color:brown;
+}
+h1{
+	
+	text-transform:uppercase;
+	color:black;
+	
+}	

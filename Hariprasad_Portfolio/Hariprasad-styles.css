@@ -1,0 +1,21 @@
+h1{
+  text-align: justify;
+  background-color: yellow;
+}
+img{
+  width: 100%;
+  radius: 100;
+  align-items: flex-start;
+}
+.red-text{
+  color : red;
+}
+body {
+  background-color: floralwhite;
+  font-family: serif;
+  font-size: 18px;
+}
+table {
+  height: auto;
+  width: auto;
+}
